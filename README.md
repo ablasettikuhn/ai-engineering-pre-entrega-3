@@ -85,7 +85,7 @@ fuentes.json ─► descargar_papers.py                     pregunta
 
 **Pregunta trampa del mismo dominio.** La prueba 2 pregunta por la dosis de cafeína para mejorar el sprint. Es un tema de ciencias del deporte que el LLM conoce de su entrenamiento, pero que no aparece en ninguno de los tres papers. Si el sistema respondiera con una cifra, estaría usando conocimiento externo, que es justo lo que no debe hacer.
 
-**Chunking en tokens y con número de página.** El tamaño se mide con `tiktoken` (`cl100k_base`), como en la Unidad 2. Es una aproximación a los tokens de Gemini, que usa otro tokenizador. Las marcas `<!-- pagina N -->` de cada `.md` permiten guardar en qué página está cada fragmento.
+**Chunking en tokens y con número de página.** El tamaño se mide con `tiktoken` (`cl100k_base`), como en la Unidad 2. Es una aproximación a los tokens de Gemini, que usa otro tokenizador. Las marcas `<!-- pagina N -->` de cada `.md` permiten guardar en qué página está cada fragmento. `chunk_size=500` es el tamaño máximo de cada fragmento: el splitter corta en límites de párrafo u oración para no partir ideas, así que algunos fragmentos quedan algo más cortos.
 
 **Persistencia con huella.** La huella combina el contenido de los archivos, los parámetros de chunking y el modelo de embeddings. Si cambia algo, la ingesta re-indexa sola; si no, la base se reutiliza sin gastar cuota.
 
