@@ -1,0 +1,18 @@
+17:32:46 | INFO    | ingesta | Indexando (re-indexación forzada)...
+17:32:46 | INFO    | ingesta | Leído beato-2018.md (30418 caracteres, 6 páginas)
+17:32:46 | INFO    | ingesta | Leído haddad-2017.md (38540 caracteres, 12 páginas)
+17:32:46 | INFO    | ingesta | Leído torres-ronda-2022.md (89274 caracteres, 18 páginas)
+17:32:46 | INFO    | ingesta | Fragmentado beato-2018.md -> 25 chunks
+17:32:46 | INFO    | ingesta | Fragmentado haddad-2017.md -> 33 chunks
+17:32:46 | INFO    | ingesta | Fragmentado torres-ronda-2022.md -> 49 chunks
+17:32:47 | INFO    | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+17:32:48 | INFO    | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+17:32:48 | INFO    | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+17:32:49 | INFO    | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+17:32:49 | INFO    | ingesta | Lote 1/2: 74 chunks embebidos y guardados
+17:32:49 | INFO    | ingesta | Pausa de 60 s para respetar el límite de tokens por minuto de los embeddings...
+17:33:50 | INFO    | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+17:33:50 | INFO    | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+17:33:50 | INFO    | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+17:33:51 | INFO    | ingesta | Lote 2/2: 33 chunks embebidos y guardados
+17:33:51 | INFO    | ingesta | Ingesta completa: 107 chunks en 'papers_ciencias_deporte' (64.3 s)

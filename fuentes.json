@@ -1,0 +1,32 @@
+[
+  {
+    "id": "torres-ronda-2022",
+    "titulo": "Tracking Systems in Team Sports: A Narrative Review of Applications of the Data and Sport Specific Analysis",
+    "autores": "Torres-Ronda L, Beanland E, Whitehead S, Sweeting A, Clubb J",
+    "anio": 2022,
+    "revista": "Sports Medicine - Open, 8:15",
+    "doi": "10.1186/s40798-022-00408-z",
+    "url_pdf": "https://sportsmedicine-open.springeropen.com/track/pdf/10.1186/s40798-022-00408-z",
+    "licencia": "CC BY 4.0"
+  },
+  {
+    "id": "haddad-2017",
+    "titulo": "Session-RPE Method for Training Load Monitoring: Validity, Ecological Usefulness, and Influencing Factors",
+    "autores": "Haddad M, Stylianides G, Djaoui L, Dellal A, Chamari K",
+    "anio": 2017,
+    "revista": "Frontiers in Neuroscience, 11:612",
+    "doi": "10.3389/fnins.2017.00612",
+    "url_pdf": "https://www.frontiersin.org/articles/10.3389/fnins.2017.00612/pdf",
+    "licencia": "CC BY 4.0"
+  },
+  {
+    "id": "beato-2018",
+    "titulo": "The Validity and Between-Unit Variability of GNSS Units (STATSports Apex 10 and 18 Hz) for Measuring Distance and Peak Speed in Team Sports",
+    "autores": "Beato M, Coratella G, Stiff A, Dello Iacono A",
+    "anio": 2018,
+    "revista": "Frontiers in Physiology, 9:1288",
+    "doi": "10.3389/fphys.2018.01288",
+    "url_pdf": "https://www.frontiersin.org/articles/10.3389/fphys.2018.01288/pdf",
+    "licencia": "CC BY 4.0"
+  }
+]

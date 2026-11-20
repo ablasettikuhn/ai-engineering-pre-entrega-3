@@ -1,0 +1,14 @@
+08:35:58 | INFO    | ingesta | La base vectorial ya existe y está actualizada (107 chunks, embeddings gemini-embedding-001): no se re-indexa.
+08:35:58 | INFO    | rag | Consulta: ¿Cómo se calcula la carga de entrenamiento con el método session-RPE y qué índices se pueden derivar de esos datos?
+08:36:03 | INFO    | rag | LLM: gemini (gemini-3.1-flash-lite) -> claude (claude-haiku-5-5) (el segundo es fallback)
+08:36:05 | INFO    | rag | Recuperados 4 fragmentos: haddad-2017-003 (0.789), haddad-2017-028 (0.759), haddad-2017-008 (0.759), haddad-2017-002 (0.756)
+08:36:05 | INFO    | rag | [gemini] Intento #1 -> enviando contexto y pregunta al LLM
+08:36:43 | INFO    | rag | Respuesta recibida | finish_reason=STOP | tokens entrada=2363 salida=142
+08:36:43 | INFO    | rag | PydanticOutputParser OK | respuesta_encontrada=True | fragmentos citados=[1, 3]
+08:36:43 | INFO    | rag | Respuesta lista en 44.76 s (proveedor: gemini)
+08:36:43 | INFO    | rag | Consulta: ¿Cuál es la dosis de cafeína recomendada, en mg por kg de peso, para mejorar el rendimiento en sprints antes de un partido?
+08:36:43 | INFO    | rag | Recuperados 4 fragmentos: beato-2018-019 (0.622), torres-ronda-2022-047 (0.616), beato-2018-022 (0.609), beato-2018-008 (0.608)
+08:36:43 | INFO    | rag | [gemini] Intento #1 -> enviando contexto y pregunta al LLM
+08:37:09 | INFO    | rag | Respuesta recibida | finish_reason=STOP | tokens entrada=1580 salida=34
+08:37:09 | INFO    | rag | PydanticOutputParser OK | respuesta_encontrada=False | fragmentos citados=[]
+08:37:09 | INFO    | rag | Respuesta lista en 26.19 s (proveedor: gemini)

@@ -1,0 +1,47 @@
+[
+  {
+    "prueba": "Prueba 1 - respuesta en los documentos",
+    "resultado": "PASA",
+    "pregunta": "¿Cómo se calcula la carga de entrenamiento con el método session-RPE y qué índices se pueden derivar de esos datos?",
+    "respuesta": "La carga de entrenamiento (TL) mediante el método session-RPE se calcula multiplicando la intensidad del entrenamiento (obtenida a través de la escala RPE) por la duración de la sesión en minutos (TL = RPE x duración de la sesión). A partir de estos datos, se pueden derivar índices complementarios como la Monotony (monotonía) y el Strain (esfuerzo), siendo este último calculado como la carga de entrenamiento semanal multiplicada por la monotonía.",
+    "respuesta_encontrada": true,
+    "referencias": [
+      {
+        "fragmento": 1,
+        "chunk_id": "haddad-2017-003",
+        "titulo": "Session-RPE Method for Training Load Monitoring: Validity, Ecological Usefulness, and Influencing Factors",
+        "autores": "Haddad M, Stylianides G, Djaoui L, Dellal A, Chamari K",
+        "anio": 2017,
+        "doi": "10.3389/fnins.2017.00612",
+        "url": "https://doi.org/10.3389/fnins.2017.00612",
+        "pagina": 2,
+        "similitud": 0.789,
+        "extracto": "SESSION-RPE METHOD: RATIONALE The session-RPE method takes into consideration the intensity and the duration of the training session (or competition) to calculate the TL or competition load. The sessi..."
+      },
+      {
+        "fragmento": 3,
+        "chunk_id": "haddad-2017-008",
+        "titulo": "Session-RPE Method for Training Load Monitoring: Validity, Ecological Usefulness, and Influencing Factors",
+        "autores": "Haddad M, Stylianides G, Djaoui L, Dellal A, Chamari K",
+        "anio": 2017,
+        "doi": "10.3389/fnins.2017.00612",
+        "url": "https://doi.org/10.3389/fnins.2017.00612",
+        "pagina": 1,
+        "similitud": 0.759,
+        "extracto": "Training strain = Weekly TL x monotony Spreadsheets can be used to facilitate the calculation of these scores within team and individual athletes. These scores are quite important to allow an optimal ..."
+      }
+    ],
+    "fragmentos_recuperados": 4,
+    "proveedor": "gemini"
+  },
+  {
+    "prueba": "Prueba 2 - pregunta trampa (respuesta fuera de los documentos)",
+    "resultado": "PASA",
+    "pregunta": "¿Cuál es la dosis de cafeína recomendada, en mg por kg de peso, para mejorar el rendimiento en sprints antes de un partido?",
+    "respuesta": "No lo sé.",
+    "respuesta_encontrada": false,
+    "referencias": [],
+    "fragmentos_recuperados": 4,
+    "proveedor": "gemini"
+  }
+]
